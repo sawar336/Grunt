@@ -1,5 +1,34 @@
+@import "_commonStyle";
+@import "_fonts";
+@import "_grid";
+@import "_header";
+@import "_content";
+@import "_footer";
+@import "_libs";
+
+@red: #eb2645;
+@red2: #e31d3c;
+@blue: #182d47;
+
 body {
-  background-color: #000;
-  font-family: "s";
-  font-size: 20px;
+  height: 2043px;
 }
+
+.main-block {
+  height: 1175px;
+}
+
+.PixP {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 1380px;
+  height: 2043px;
+  right: 50%;
+  transform: translate(50%, 0);
+  opacity: 0.5;
+  background-image: url(../img/PixP2.jpg);
+}
+
+

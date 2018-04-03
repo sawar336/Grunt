@@ -1,0 +1,164 @@
+.main-block {
+  .breadcrumbs {
+    font-size: 0;
+    text-transform: uppercase;
+    li {
+      display: inline-block;
+      a {
+        font-size: 12px;
+        color: #9a9d9f;
+        &:after {
+          content: '>';
+          display: inline-block;
+          padding: 0 8px;
+          font-size: 12px;
+          color: @red;
+        }
+      }
+      .last {
+        font-family: @PB;
+        color: @red;
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  .dateRow {
+    .interval {
+      font-size: 14px;
+      span {
+        font-family: @PBlack;
+        text-transform: uppercase;
+      }
+    }
+    .dateWrap {
+      .date {
+        position: relative;
+        font-size: 15px;
+        margin-left: 55px;
+        float: right;
+        img {
+          position: absolute;
+          top: 50%;
+          left: -35px;
+          transform: translate(0, -50%);
+        }
+      }
+    }
+  }
+  .sliderRow {
+    .infoBlock {
+      color: #FFFFFF;
+      font-size: 14px;
+      background-color: @red;
+      padding: 35px 0 30px 17px;
+      h3 {
+        text-transform: uppercase;
+        font-family: @PB;
+      }
+      ul {
+        display: block;
+        li {
+          position: relative;
+          padding-left: 15px;
+          .imgWrap {
+            width: 20px;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+          }
+          span {
+            display: inline-block;
+            vertical-align: middle;
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+      .bigImg {
+        display: block;
+        width: 128px;
+        height: 180px;
+
+      }
+    }
+    .sliderWrap {
+      font-size: 0;
+      overflow: hidden;
+      position: relative;
+      .slick-dots {
+        display: inline-block;
+        li {
+          display: inline-block;
+          button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: none;
+            outline: none;
+            color: transparent;
+            font-size: 0;
+            background-color: transparent;
+            position: relative;
+            display: inline-block;
+            &:after {
+              content: '';
+              width: 10px;
+              height: 10px;
+              position: absolute;
+              border-radius: 50%;
+              display: inline-block;
+              background-color: #6c6e71;
+              cursor: pointer;
+              top: 50%;
+              left: 50%;
+              transform: translate(50%,50%);
+            }
+          }
+        }
+        .slick-active {
+          button {
+            &:after {
+              background: #709ed3;
+            }
+          }
+        }
+      }
+      img {
+        display: inline-block;
+      }
+      .slickWrap{
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        max-width: 620px;
+        .mySlick {
+          min-height: 480px;
+          max-width: 620px;
+          background-color: #2c2f33;
+          display: inline-block;
+          vertical-align: top;
+          .item {
+            color: @red;
+            font-size: 30px;
+          }
+        }
+        .my-arrows{
+          .prev, .next {
+            position: absolute;
+            width: 58px;
+            height: 58px;
+            bottom: 0;
+            background-color: #4e5054;
+          }
+          .next {
+            right: 0;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-Close {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -504px;
+  width: 19px;
+  height: 20px;
+}
+.icon-F {
+  background-image: url(spritesheet.png);
+  background-position: -901px -291px;
+  width: 31px;
+  height: 30px;
+}
+.icon-I {
+  background-image: url(spritesheet.png);
+  background-position: -839px -291px;
+  width: 31px;
+  height: 30px;
+}
+.icon-T {
+  background-image: url(spritesheet.png);
+  background-position: -870px -291px;
+  width: 31px;
+  height: 30px;
+}
+.icon-Y {
+  background-image: url(spritesheet.png);
+  background-position: -935px -243px;
+  width: 32px;
+  height: 30px;
+}
+.icon-arrow {
+  background-image: url(spritesheet.png);
+  background-position: -1221px -670px;
+  width: 8px;
+  height: 12px;
+}
+.icon-basket {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -444px;
+  width: 20px;
+  height: 20px;
+}
+.icon-calk {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -524px;
+  width: 18px;
+  height: 21px;
+}
+.icon-fooIcon {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -464px;
+  width: 20px;
+  height: 20px;
+}
+.icon-fooIcon1 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -404px;
+  width: 20px;
+  height: 20px;
+}
+.icon-fooIcon2 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -580px;
+  width: 18px;
+  height: 18px;
+}
+.icon-fooIcon3 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -598px;
+  width: 20px;
+  height: 16px;
+}
+.icon-forFoo {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -484px;
+  width: 20px;
+  height: 20px;
+}
+.icon-forFoo1 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -614px;
+  width: 16px;
+  height: 16px;
+}
+.icon-forFoo2 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -362px;
+  width: 21px;
+  height: 21px;
+}
+.icon-forFoo3 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -630px;
+  width: 15px;
+  height: 15px;
+}
+.icon-forFoo4 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -565px;
+  width: 22px;
+  height: 15px;
+}
+.icon-forFoo5 {
+  background-image: url(spritesheet.png);
+  background-position: -980px -694px;
+  width: 23px;
+  height: 24px;
+}
+.icon-forI {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -383px;
+  width: 21px;
+  height: 21px;
+}
+.icon-fr {
+  background-image: url(spritesheet.png);
+  background-position: -1029px -694px;
+  width: 24px;
+  height: 16px;
+}
+.icon-heart {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -645px;
+  width: 15px;
+  height: 14px;
+}
+.icon-ico1 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -424px;
+  width: 20px;
+  height: 20px;
+}
+.icon-ico2 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -659px;
+  width: 11px;
+  height: 11px;
+}
+.icon-ico3 {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -670px;
+  width: 8px;
+  height: 15px;
+}
+.icon-img1 {
+  background-image: url(spritesheet.png);
+  background-position: -611px -723px;
+  width: 160px;
+  height: 109px;
+}
+.icon-img2 {
+  background-image: url(spritesheet.png);
+  background-position: -275px -917px;
+  width: 143px;
+  height: 116px;
+}
+.icon-img3 {
+  background-image: url(spritesheet.png);
+  background-position: -461px -723px;
+  width: 150px;
+  height: 149px;
+}
+.icon-itembg {
+  background-image: url(spritesheet.png);
+  background-position: 0px -723px;
+  width: 275px;
+  height: 327px;
+}
+.icon-itembg1 {
+  background-image: url(spritesheet.png);
+  background-position: -305px -243px;
+  width: 274px;
+  height: 386px;
+}
+.icon-itembg2 {
+  background-image: url(spritesheet.png);
+  background-position: -980px -362px;
+  width: 233px;
+  height: 332px;
+}
+.icon-itembg3 {
+  background-image: url(spritesheet.png);
+  background-position: -980px 0px;
+  width: 255px;
+  height: 362px;
+}
+.icon-itembg4 {
+  background-image: url(spritesheet.png);
+  background-position: -579px -243px;
+  width: 260px;
+  height: 369px;
+}
+.icon-itembg5 {
+  background-image: url(spritesheet.png);
+  background-position: -275px -723px;
+  width: 186px;
+  height: 194px;
+}
+.icon-label {
+  background-image: url(spritesheet.png);
+  background-position: -1003px -694px;
+  width: 26px;
+  height: 18px;
+}
+.icon-line {
+  background-image: url(spritesheet.png);
+  background-position: -887px -243px;
+  width: 48px;
+  height: 34px;
+}
+.icon-logo {
+  background-image: url(spritesheet.png);
+  background-position: -305px -629px;
+  width: 197px;
+  height: 54px;
+}
+.icon-mH_bg {
+  background-image: url(spritesheet.png);
+  background-position: 0px 0px;
+  width: 980px;
+  height: 243px;
+}
+.icon-person {
+  background-image: url(spritesheet.png);
+  background-position: -1224px -659px;
+  width: 10px;
+  height: 10px;
+}
+.icon-slider_bg {
+  background-image: url(spritesheet.png);
+  background-position: 0px -243px;
+  width: 305px;
+  height: 480px;
+}
+.icon-smtRed {
+  background-image: url(spritesheet.png);
+  background-position: -1213px -545px;
+  width: 18px;
+  height: 20px;
+}
+.icon-unitedkingdom {
+  background-image: url(spritesheet.png);
+  background-position: -839px -243px;
+  width: 48px;
+  height: 48px;
+}
