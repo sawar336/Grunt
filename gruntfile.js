@@ -4,7 +4,8 @@ module.exports = function(grunt) {
         less: {
             development: {
                 files: {
-                    "app/css/style.css": "app/less/main.less"
+                    "app/css/style.css": "app/less/main.less",
+                    "app/css/catalog.css": "app/less/catalog.less"
                 }
             }
         },
@@ -15,7 +16,8 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'app/css/style.min.css': ['app/css/style.css']
+                    'app/css/style.min.css': ['app/css/style.css'],
+                    'app/css/catalog.min.css': ['app/css/catalog.css']
                 }
             }
         },
@@ -50,7 +52,8 @@ module.exports = function(grunt) {
         rig: {
             compile: {
                 files: {
-                    'app/index.html': ['app/html/*.html']
+                    'app/index.html': ['app/html/index.html'],
+                    'app/catalog.html': ['app/html/catalog.html']
                 }
             }
         },
@@ -58,13 +61,13 @@ module.exports = function(grunt) {
             all: {
                 src: 'app/img/imgForSprite/*',
                 dest: 'app/img/sprite/spritesheet.png',
-                destCss: 'app/img/sprite/sprites.css'
+                destCss: 'app/img/sprite/sprites.less'
             }
         },
         watch: {
             less: {
                 files: 'app/less/*.less',
-                tasks: ['less', 'cssmin']
+                tasks: ['less', 'autoprefixer', 'cssmin']
             },
             html: {
                 files: 'app/html/**/*.html',
