@@ -1,0 +1,4 @@
+
+.sg-cursor:before { content: '\e800'; } /* '' */
+.sg-download:before { content: '\e801'; } /* '' */
+.sg-icon:before { content: '\e802'; } /* '' */

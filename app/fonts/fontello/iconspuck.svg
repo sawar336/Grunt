@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="iconspuck" horiz-adv-x="1000" >
+<font-face font-family="iconspuck" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cursor" unicode="&#xe800;" d="M989 43l-279 279 204 118c12 7 19 20 18 34-1 13-10 25-23 31l-859 342c-14 6-29 3-39-7-10-11-14-26-8-39l343-860c5-13 17-22 30-23 14-1 27 6 34 18l118 204 279-280c6-6 15-10 25-10 10 0 19 4 25 10l132 132c14 15 14 37 0 51z" horiz-adv-x="1000" />
+
+<glyph glyph-name="download" unicode="&#xe801;" d="M756 457h-163v367c0 14-23 26-51 26h-90c-28 0-51-12-51-26v-367h-163c-16 0-29-10-29-23 0 0 244-358 266-375 22-18 44 0 44 0l266 375c0 13-13 23-29 23z m35-570c0-20-14-37-32-37h-517c-18 0-33 17-33 37v37c0 20 15 37 33 37h517c18 0 32-17 32-37l0-37 0 0z" horiz-adv-x="1000" />
+
+<glyph glyph-name="icon" unicode="&#xe802;" d="M500 850c-276 0-500-224-500-500s224-500 500-500 500 224 500 500-224 500-500 500z m0-902c-221 0-402 181-402 402s181 402 402 402 402-180 402-402-180-402-402-402z m-66 700h132v-421h-132v421z m0-492h132v-104h-132v104z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
